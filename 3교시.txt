@@ -1,0 +1,20 @@
+겹치는 항목은 하나로 합쳐서 선언해주면 편함
+div.pic1 div.pic2 둘다 들어가야 되는 부분은
+div 하나에 몰아서 넣어두면 됨
+
+background-position인자 순서
+
+top > right > bottom > left
+
+우하단을 입력할때  bottom right으로 써도 인식되나
+인자 순서대로 right bottom 쓰기를 권장
+
+예시)
+10px 10px 5px 20px
+위 오른쪽 아래 왼쪽
+
+fixed 를 이용하면 배경이 스크롤을 내려도 같은자리에 있게 만들 수 있음
+
+w3school에서 css들어가서 background를 확인
+
+시간이 조금 남아서 w3school에서 css항목 둘러보라고 하심

@@ -1,0 +1,13 @@
+nav a{
+     text-decoration: none;
+     color: #333;
+}
+
+/* 로그인 스타일 */
+.login{
+     width: 300px;
+}
+.login td{
+     width: 150px;
+     height : 30px;
+}

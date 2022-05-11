@@ -1,0 +1,28 @@
+class로 h1을 text1 ~ 4까지 나누어서 각각 투명도 실습
+
+텍스트에 그림자 효과
+text-shadow: <가로><세로><번짐정도><색상>
+<!-- 색상을 제외한 모든 값은 px단위 ->
+
+background-repeat 기본값은 반복
+반복을 원하지 않으면 no-repeat 사용
+
+images에서 bg3 복사
+day3/images에 붙여넣기
+
+./는 현재폴더 ../는 상위폴더
+
+구역 지정을 위해 background.html을 복사하여
+background2.html을 만듬
+
+background-position
+div로 나누고 높이와 넓이를 지정해주어야 똑바로 작동함
+
+w3schools에서 html div 항목 확인
+
+outset은 잘 쓰이지 않음
+outset 좌하단 선 두줄 진해짐
+inset 우상단 선 두줄 진해짐
+
+images에서 bg5 복사
+day3/images에 붙여넣기

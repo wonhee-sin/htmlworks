@@ -1,0 +1,36 @@
+참고 ppt는 4강
+
+w3schools.com 에서 html 밑에 css에서 어제꺼 복습
+
+css -> color
+color style 내에 'p.ex{' 부분
+/* class는 .으로 호출 p는 지금은 생략해도 무관 */
+
+css -> font-size
+<!-- 디자인을 위해서 div로 구획을 나눌 필요성이 있음 -->
+div class='a' 를 div id='a'로 바꿈
+div.a 호출도 div#a로 바꾸어야 됨
+
+font-size: 150%;
+/* 1.5em과 동일함 */
+
+css -> line height
+line height
+/* 2가 글자 1개가 들어갈 크기 w3schools 에선 1.6 추천함 */
+
+day2 table 에서 글자 정렬 복습
+left 왼쪽
+right 오른쪽
+center 중앙
+
+day 3에 table 새로 만듬
+
+여백
+바깥여백 - margin
+테두리 - border(없을수도 있음)
+안쪽여백 - padding
+
+rgb(255, 0, 0)
+rgba(255, 0, 0, 0.5) 기본값은 1
+rgb 4번째 변수는 a(알파, 투명도) 라고 함
+0(투명) ~ 1(불투명)

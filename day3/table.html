@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>표의 세로 정렬</title>
+    <style>
+        table, td{
+            border: 1px solid #ccc;
+            /* vertical-align: top; */
+            vertical-align: middle;
+            text-align: center;
+            /* vertical-align: bottom; */
+        }
+        td{
+            height: 100px;
+            /* vertical-align: middle */
+            /* 세로 정렬(수직) - top middle bottom */
+            /* 가로 정렬 - left center right */
+            padding: 10px 5px 10px 5px;
+            /* 왼쪽부터 순서대로 top right bottom left padding임 */
+        }
+        td.va1{
+            vertical-align: top;
+        }
+        td.va2{
+            vertical-align: middle;
+        }
+        td.va3{
+            vertical-align: bottom;
+        }
+    </style>
+</head>
+<body>
+    <h1> 표의 세로 정렬 </h1>
+    <!-- 2행 3열 표 -->
+    <table>
+        <tr>
+            <td class="va1">aligment</td>
+            <td class="va2">aligment</td>
+            <td class="va3">aligment</td>
+        </tr>
+        <tr>
+            <td colspan="3">aligment</td>
+        </tr>
+    </table>
+</body>
+</html>

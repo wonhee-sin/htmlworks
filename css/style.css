@@ -1,0 +1,17 @@
+/* 외부 스타일 */
+body{
+
+     background-color: greenyellow;
+
+}
+h2{
+     /* 글자색 */
+     color: rgb(255, 0, 0);
+
+}
+p{
+
+     font-size: 12px;
+     font-family: "바탕체";
+     color: #0000ff;
+}

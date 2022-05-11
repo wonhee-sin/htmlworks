@@ -1,0 +1,10 @@
+ul{
+     /* list-style-type: circle; */
+     /* list-style: none; */
+     list-style-image: url("../images/dot.png") ;
+}
+
+ol{
+     /* list-style: upper-alpha; */
+     list-style: lower-alpha;
+}

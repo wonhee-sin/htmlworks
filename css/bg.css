@@ -1,0 +1,34 @@
+div{
+    width: 600px;
+    height: 600px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    /* 아래쪽 바깥 여백 */
+}
+div.pic1{
+    background: url("../images/bg5.jpg");
+    background-size: auto;
+    /* 디폴트 값이 auto임 */
+}
+div.pic2{
+    background: url("../images/bg5.jpg") no-repeat;
+    background-size: 400px;
+}
+div.pic3{
+    background: url("../images/bg5.jpg") no-repeat;
+    background-size: 60%;
+    /* %는 div크기의 기준, 따라서 지금 크기는 360px */
+    background-position: top 100px right 50px;
+    /* 디폴트 값은 0px (0이라고 표기)(생략가능) */
+    /* 기준에서 입력 값만큼 떨어진 위치에 위치하게됨 */
+}
+div.pic4{
+    background: url("../images/bg5.jpg") no-repeat;
+    background-size: contain;
+    /* contain은 비율을 맞춰 축소하여 들어감 (여백이 생길 수 있음) */
+}
+div.pic5{
+    background: url("../images/bg5.jpg") no-repeat;
+    background-size: cover;
+    /* cover는 비율을 맞춰서 배경을 가득채움 (사진이 잘릴 수 있음) */
+}
