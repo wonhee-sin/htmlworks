@@ -1,0 +1,92 @@
+#container{
+     width: 800px;
+     margin: 20px auto;
+     border-radius: 5px;
+     padding: 10px 20px;
+     border : none;
+}
+nav{margin-bottom: 20px;}
+
+nav a{
+     text-decoration: none;
+     color: #333;
+}
+
+/* 레드향 소개 스타일 */
+div{
+     width: 700px;
+     border: 1px solid #333;
+     padding: 20px;
+     margin-bottom: 30px;
+}
+#discription{
+     border-top-left-radius: 30px;
+     border-top-right-radius: 30px;
+     text-align: center;
+}
+#recipe{
+     text-align: center;
+}
+
+#package{
+     border-bottom-left-radius: 30px;
+     border-bottom-right-radius: 30px;
+     text-align: center;
+}
+
+#tbl_package{
+     width: 400px;
+     border-collapse: collapse;
+     margin : 0 auto;
+}
+#tbl_package th, #tbl_package td{
+     border: 1px solid #ccc;
+}
+#tbl_package td{
+     padding : 10px 10px 10px 32px;
+}
+
+#tbl_board{
+border: 3px solid green;
+border-collapse: collapse;
+width: 500px;
+height: 80px;
+
+}
+
+#tbl_board th, #tbl_board td{
+border: 1px solid green;
+text-align: center;
+}
+
+/* 질문 답변 스타일 */
+
+#question{
+     width: 600px;
+     padding-left: 100px;
+     border-top-left-radius: 30px;
+     border-top-right-radius: 30px;
+}
+
+/* 로그인 스타일 */
+.login{
+     width: 300px;
+}
+.login td{
+     width: 150px;
+     height : 30px;
+}
+#login{
+
+     border-top-left-radius: 30px;
+     border-top-right-radius: 30px;
+     
+}
+
+/* 홈 */
+
+#home{
+     border-top-left-radius: 30px;
+     border-top-right-radius: 30px;
+     text-align: center;
+}
