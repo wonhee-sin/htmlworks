@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&family=Nanum+Pen+Script&display=swap');
+/* 구글 웹폰트는 맨 위에 존재해야함 */
+*{margin: 0; padding : 0;}
+#contaniner{width: 1000px; margin: 0 auto;}
+header{height: 80px;background-color: #069;}
+header #logo{width: 200px;float: left;
+    font-family: 'Merienda', cursive;
+    font-size: 20px;}
+header h1{color:rgb(207, 238, 34); padding:15px 10px;}
+header nav{width: 700px;float: right;padding: 10px 20px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 25px;}
+nav ul{list-style: none; margin: right;}
+nav ul li{ display: inline; line-height: 60px; margin : 10px}
+nav ul li a{ color: #fff; text-decoration: none;}
+nav ul li a:hover{ color: rgb(27, 221, 37);}
+
+section h1{ padding:20px;}
