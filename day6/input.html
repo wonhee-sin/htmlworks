@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>폼</title>
+</head>
+<body>
+     <form action="#" method="post">
+     <fieldset>
+          <legend>속성</legend>
+          <p>아이디 : <input type="text" autocomplete="on" autofocus
+                       required placeholder="이름을 입력하세요."></p>
+          <p>비밀번호 : <input type="password"></p>
+          <p>search : <input type="search" disabled></p>
+          <p>email : <input type="email" title="이메일 입력" value="ww1700" readonly> @ 
+               <select>
+                    <option>naver</option>
+                    <option>hanmail</option>
+                    <option>gmail</option>
+               </select>
+          </p>
+          <p>tel number : <select>
+               <option>지역번호</option>
+               <option selected>02</option>
+               <option>031</option>
+               <option>032</option>
+          </select> <input type="tel"></p>
+          <p>color : <input type="color"></p>
+          <p>mumber : <input type="number" min="1" max="10" value="1"></p>
+          <p>range : <input type="range" min="1" max="10" value="1"></p>
+          <p>
+          <label><input type="radio" name="receive" checked="checked">yes</label>
+          <label><input type="radio" name="receive" checked="checked">no</label>
+          </p>
+
+          <p>html<input type="checkbox" checked="checked">
+             css<input type="checkbox"></p>
+          <p><input type="submit" value="전송"></p>
+          <p><input type="reset" value="cancle"></p>
+          <p><input type="button" value="check"></p>
+          <p><input type="image" src="../markup/images/bt.png" alt="검색"></p>
+          <p><input type="file" multiple></p>
+          <p><button type="button" onclick="alert('동의해주셔서 감사합니다.')">확인</button></p>
+     </fieldset>
+</form>
+</body>
+</html>
