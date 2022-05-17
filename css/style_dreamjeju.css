@@ -1,0 +1,25 @@
+*{margin: 0; padding: 0;}
+#container{
+     width: 1200px; margin: 0 auto;
+}
+/* header 영역 */
+header{height : 80px; background-color : green;}
+header #logo{width: 300px; float: left; padding: 15px 30px;}
+header #logo a{color: yellow; text-decoration: none;}
+header nav{width: 800px; float: right;}
+header nav #topmenu{list-style: none; text-align: right; margin-right: 50px; padding: 15px 20px;}
+header nav #topmenu li{display: inline-block; margin: 15px;}
+header nav #topmenu a{color: #fff; text-decoration: none; font-size: 1.1em;}
+header nav #topmenu a:hover{text-decoration: none; color: #2fb2fd;}
+
+/* main 영역 */
+
+#contents{width: 1000px; margin: 30px auto;}
+#contents section{margin : 30px 10px;}
+#contents section div{margin: 30px 10px;}
+#contents p{line-height: 1.8em;}
+#contents #healing{height: 300px;}
+#contents #healing img{float: left; margin-right: 30px; border-radius: 20px;}
+#contents .schedule ul li{list-style: none; margin: 10px;}
+#contents #activity{height: 300px;}
+#contents #activity img{float: left; margin-right: 30px; border-radius: 20px;}

@@ -1,0 +1,30 @@
+*{margin: 0; padding: 0;}
+#container{
+     width: 1200px; margin: 0 auto;
+}
+#header{
+     height: 100px;
+     padding: 10px;
+     background: #eee; 
+}
+#left-aside{
+     
+     width: 200px; height: 600px;
+     padding: 10px;
+     background: #ddd; float: left;
+}
+#contents{
+     width: 740px; height: 600px;
+     background: lightblue;
+     padding: 10px; float: left;
+}
+#right-aside{
+     width: 200px; height: 600px; padding: 10px;
+     background: #ddd; float: right ;
+}
+footer{
+     height: 100px;
+     background-color: aquamarine;
+     padding: 10px;
+     clear: both;
+}
