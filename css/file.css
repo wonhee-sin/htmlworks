@@ -1,0 +1,24 @@
+*{margin: 0; padding: 0;}
+#container{width:1000px ; margin: 30px auto;}
+#container > h1{text-align: center;}
+.productlist{list-style: none; margin-top: 30px;}
+.productlist li{display: inline-block; 
+               margin: 5px 10px;
+               position: relative;
+               /* 포지션 적용이 되어야 오버플로우가 적용됨 */
+               overflow: hidden;}
+               /* 초과 마진 없에는 float left 코드임 */
+.productlist img{float: left;}
+.productlist .caption{
+     width: 300px; height: 200px;
+     background: rgba(0,0,0,0.6);
+     position: absolute;
+     top: 200px;
+
+     transition: 1s ease-in;
+}
+.productlist li:hover .caption{
+     transform: translateY(-200px);
+}
+.productlist li h1,p{color: white; text-align: center;
+line-height: 2;}

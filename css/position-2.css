@@ -1,0 +1,15 @@
+*{margin: 0; padding: 0;}
+#container{
+     width: 650px; height: 450px;
+     margin: 50px auto;
+     background: url(../images/bg.jpg) no-repeat center;
+     /* background-position: center; */
+     
+     
+     position: relative;
+}
+h1{position :absolute;
+     bottom: 100px;
+     right: 50px;
+     color: white;
+     font-size: 6em;}

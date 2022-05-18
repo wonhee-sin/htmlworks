@@ -2,6 +2,7 @@
 *{margin: 0; padding: 0;}
 #container{width: 1200px; margin: 0 auto;}
 main{width: 1000px; margin: 30px auto;}
+#contents{margin: 50px 100px;}
 
 /* header 영역 */
 header{height: 80px; background: rgb(0, 90, 0);}
@@ -21,6 +22,8 @@ nav{width: 800px; float: right;}
 #contents h2{margin-bottom: 20px;}
 #contents p{line-height: 2;}
 #healing, #activity{height: 300px;}
+#healing .schedule ul li{list-style: none; margin: 10px;}
+#healing h3{margin: 20px;}
 #healing img, #activity img{float: left; margin-right: 20px;
     border-radius: 20px;}
 #sightseeing ul li{margin: 10px 30px;}
@@ -59,3 +62,19 @@ footer{width: 1000px; margin: 30px auto;
     text-align: center;}
 #tbl_board th,#tbl_board td{border: 1px solid #ccc;}
 #tbl_board thead{background: #eee;}
+
+/* about me 스타일 */
+
+#profile{width: 1000px; margin: 30px auto;}
+#profile section{margin: 30px 10px;}
+#profile section h2{margin: 20px; color: blue;}
+#profile section div{margin: 30px 10px;}
+#profile ul li{margin: 16px 50px;}
+#profile #intro{height: 350px;}
+#profile #intro h1{font-size: 2em;}
+#profile #intro p{line-height: 1.8em;}
+#profile #intro img{float: left; margin-right: 30px; border-radius: 5px;}
+#profile #intro a{text-decoration: none; color: #00f;}
+#profile #intro a:hover{text-decoration: underline;}
+#profile #career ul li:nth-child(1){color: red;}
+/* #profile #skill ul li a{text-decoration: none; color: blue;} */
