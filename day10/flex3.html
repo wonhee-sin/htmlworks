@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <meta charset="UTF-8">
+          <meta name="viewprot" content="width=device-width, initial-scale=1.0">
+          <title>display : flex 속성</title>
+          <style>
+               #wrap{
+                    width: 400px;
+                    border: 1px solid #000;
+                    /* 플렉스 박스 레이아웃 */
+                    /* 줄을 바꾸지 앙ㄶ음(컨테이너 범위를 벗어날 수 있음) */
+                    flex-wrap : no-wrap;
+                    /* 부모 자식이니까 부모쪽에 flex를 넣는다. */
+                    /* 교차축으로 아래로 배치용(컨테이너 블록안에 위치) */
+                    display: flex;
+                    /* flex-wrap: wrap; */
+               }
+               .box{
+                    width: 80px;
+                    background: #000;
+                    padding: 5px 30px;
+                    margin: 5px;
+               }
+               p{color: white;
+               text-align: center;}
+          </style>
+     </head>
+
+     <body>
+          <div id="wrap">
+               <div class="box"><p>1</p></div>
+               <div class="box"><p>2</p></div>
+               <div class="box"><p>3</p></div>
+               <div class="box"><p>4</p></div>
+               <div class="box"><p>5</p></div>
+               <div class="box"><p>6</p></div>
+          </div>
+     </body>
+</html>

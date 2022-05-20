@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+          *{margin: 0; padding: 0;}
+          #container{width: 1000px; margin: 0 auto;}
+          nav{height: 60px; background: blue;}
+          #main-menu, #sub-menu{list-style: none; text-align: center;}
+          #main-menu > li{display: inline-block; background: blue; margin: 10px;}
+          #main-menu > li > a{
+               display: block; padding: 10px 30px; text-decoration: none;
+               background:blue; color: white; font-size: 0.9em;}
+
+          #sub-menu{position: absolute; top: 60px; background: darkblue;
+               visibility: hidden;
+           }
+          #sub-menu > li{padding: 15px 30px;}
+          #sub-menu > li > a{text-decoration: none; color: rgba(255,255,255,0.6);}
+          #main-menu > li:hover #sub-menu{visibility:visible;}
+
+          /* #sub-menu:hover{visibility: visible;} */
+     </style>
+</head>
+<body>
+     <div id="container">
+          <nav>
+               <ul id="main-menu">
+                    <li><a href="#">기업정보</a>
+                         <ul id="sub-menu">
+                              <li><a href="#">메모리1</a></li>
+                              <li><a href="#">메모리2</a></li>
+                              <li><a href="#">메모리3</a></li>
+                              <li><a href="#">메모리4</a></li>
+                         </ul>
+                    </li>
+                    <li><a href="#">제품소개</a>
+                         <ul id="sub-menu">
+                              <li><a href="#">메모리1</a></li>
+                              <li><a href="#">메모리2</a></li>
+                              <li><a href="#">메모리3</a></li>
+                              <li><a href="#">메모리4</a></li>
+                         </ul>
+                    </li>
+                    <li><a href="#">투자정보</a>
+                         <ul id="sub-menu">
+                              <li><a href="#">메모리1</a></li>
+                              <li><a href="#">메모리2</a></li>
+                              <li><a href="#">메모리3</a></li>
+                              <li><a href="#">메모리4</a></li>
+                         </ul>
+                    </li>
+                    <li><a href="#">인재채용</a>
+                         <ul id="sub-menu">
+                              <li><a href="#">메모리1</a></li>
+                              <li><a href="#">메모리2</a></li>
+                              <li><a href="#">메모리3</a></li>
+                              <li><a href="#">메모리4</a></li>
+                         </ul>
+                    </li>
+               </ul>
+          </nav>
+     </div>
+</body>
+</html>
